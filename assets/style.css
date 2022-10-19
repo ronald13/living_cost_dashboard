@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+    background:#efeae3;
+}
+
+h1{
+    font-weight:700;
+    font-size:48px;
+}
+p{
+    font-size:14px;
+}
+.dash__header p{
+    font-size:14px;
+    font-weight:700;
+    margin:20px 0 0 0 ;
+
+}
+.dropdown{
+    min-width:200px;
+}
+
+.dash__header {
+    display:flex;
+    align-items:center;
+    width:100%;
+
+}
+.dash__header .description{
+
+    font-weight:400;
+    margin: 10px 0 20px 0;
+
+
+
+}
+.dash__wrapper{
+    font-family: 'Poppins', sans-serif;
+    padding:20px 30px;
+}
+
+.dash__graph_block{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.main-svg{
+    background:transparent!Important;
+}
+
+.plotbg path{
+    fill:transparent!Important;
+}
+.radial-grid path, .angular-line path, .angular-grid path{
+    stroke:#e7718a!Important;
+}
+.angular-line path{
+    stroke-width:2!Important;
+}
+
+.frontplot .scatterlayer .point{
+        fill:#e7718a!Important;
+
+}
+.radial-line{
+    display:none!Important;
+}
+
+.geo .bg rect{
+    fill:transparent!Important;
+}
+
+.geo frame{
+    display:none!Important;
+}
