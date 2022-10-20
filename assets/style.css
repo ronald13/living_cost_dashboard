@@ -3,12 +3,18 @@ body{
     background:#efeae3;
 }
 
+.table2x{
+    flex-basis:50%;
+    width:100%;
+}
+
 h1{
     font-weight:700;
     font-size:48px;
 }
 p{
     font-size:14px;
+    margin:0;
 }
 .dash__header p{
     font-size:14px;
@@ -22,23 +28,36 @@ p{
 
 .dash__header {
     display:flex;
-    align-items:center;
+    align-items:flex-start;
     width:100%;
-
 }
 .dash__header .description{
-
     font-weight:400;
     margin: 10px 0 20px 0;
-
-
-
 }
+
 .dash__wrapper{
+    display:flex;
+    flex-direction:column;
+
     font-family: 'Poppins', sans-serif;
     padding:20px 30px;
+    min-height: 100%;
 }
 
+.dash__graph_block{
+    flex: 1 1 auto;
+     height: 100%;
+}
+
+.dash__footer{
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+}
+.dash__footer p{
+    padding: 0 10px 0 10px;
+}
 .dash__graph_block{
     display:flex;
     align-items:center;
@@ -73,4 +92,9 @@ p{
 
 .geo frame{
     display:none!Important;
+}
+
+.angularaxistick text{
+    font-size:10px!Important;
+    padding: 10px;
 }
