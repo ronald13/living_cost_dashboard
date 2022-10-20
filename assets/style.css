@@ -54,6 +54,7 @@ p{
     display:flex;
     align-items:center;
     justify-content:flex-end;
+    margin-top:20px;
 }
 .dash__footer p{
     padding: 0 10px 0 10px;
